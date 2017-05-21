@@ -52,6 +52,7 @@ body {
     display: table-cell;
     width: calc(800px / 3);
     margin: 50px, 50px;
+    position: relative;
 }
 .column + .column {
 	border-left: 1px solid #34495e;
@@ -76,8 +77,9 @@ body {
 .btn-delete {
 	background: #C8110C;
     color: #ecf0f1;
-	font-weight: 600;
+    font-weight: 600;
 	font-size: 20px;
+    margin: 5px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 .add-card {
@@ -116,7 +118,6 @@ body {
 	color: #2c3e50;
 	transition: all 0.5s;
 }
-
 .column > button[class^="btn"] {
 	width: 10%;
 	color: #ecf0f1;
